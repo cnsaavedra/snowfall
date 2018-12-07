@@ -36,9 +36,13 @@ body > #root > div {
   height: 100vh;
 }
 
-#fakingcanvas {
-  background-color: black;
+canvas {
+  background-color:black !important;
+  background: black;
+}
 
+div#container{
+  background: black;
 }
 
 h1{
