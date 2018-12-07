@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App" id="fakingcanvas">
             <div className="App-intro">
-              <Snowflake />
+              <Snowflake/>
             </div>
       </div>
     );
