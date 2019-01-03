@@ -6,4 +6,4 @@ Konva was needed in order to manipulate the backend of the website like in regul
 Mobx was needed to help with state managements.
 
 # How to start
-Once pulled, simply type in ### yarn start in console
+Once pulled, simply type in **yarn start** in console
