@@ -6,6 +6,7 @@ import {Circle, Rect} from 'react-konva';
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
   }
+  console.log(window.innerWidth);
 
 class Snowflake extends Component{
     constructor(props) {
@@ -20,7 +21,7 @@ class Snowflake extends Component{
       componentDidMount(){
           this.timerID = setInterval(
               () => this.fall(),
-              60
+              1
           );
       }
 
@@ -30,7 +31,7 @@ class Snowflake extends Component{
 
       fall(){
         this.setState({  
-            x: this.state.x,
+            x: getRandomArbitrary(this.state.x-1, this.state.x+1),
             y: this.state.y+1,
             radius: this.state.radius
         })
