@@ -13,4 +13,6 @@ Konva was needed in order to manipulate the backend of the website like in regul
 Mobx was needed to help with state managements.
 
 # How to start
-Once pulled, simply type in **yarn start** in console
+Once pulled/cloned into a directory, open the working folder in an editor (I use Visual Stdio Code) then in console type:
+- **yarn install** 
+- and then **yarn start** 
